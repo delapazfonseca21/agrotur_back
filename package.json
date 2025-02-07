@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch server.js",
-    "start": "node --watch server.js"
+    "dev": "node --watch index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,9 @@
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
     "mysql2": "^3.12.0",
-    "sequelize": "^6.37.5"
+    "sequelize": "^6.37.5",
+    "express-async-handler": "^1.2.0",
+    "http-proxy-middleware": "^2.0.6"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"

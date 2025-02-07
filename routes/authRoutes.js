@@ -6,7 +6,7 @@ const router = express.Router();
 router.post("/register", register);
 router.post("/login", login);
 router.get("/profile", (req, res) => {
-    res.json({ message: "Welcome to your profile" });
+    res.status(200).json({ message: "Welcome to your profile" });
   });
 
 module.exports = router;
