@@ -10,7 +10,6 @@ yarn-error.log*
 .env.development
 .env.production
 .env.test
-config/config.json
 
 # Archivos de logs
 logs/
